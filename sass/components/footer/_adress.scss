@@ -1,0 +1,16 @@
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $--hero-title-color;
+  transition: color 250ms $--default-timing-function;
+
+  &:hover,
+  &:focus {
+    color: $--blue;
+  }
+}
+
+.list.adress li:not(:last-child) {
+  margin-bottom: 9px;
+}

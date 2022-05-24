@@ -1,0 +1,38 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+
+  &-item {
+    width: 170px;
+
+    border: 1px solid $--company-border-color;
+    border-radius: $--clients-border-radius;
+    transition: border 250ms $--default-timing-function;
+  }
+
+  &-link {
+    display: inline-block;
+    padding: 16px 32px;
+    color: #afb1b8;
+    transition: color 250ms $--default-timing-function;
+  }
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  color: $--blue;
+}
+
+.clients-list-item:hover,
+.clietns-list-item:focus {
+  border: 1px solid $--blue;
+}
+
+.client-one,
+.client-two,
+.client-three,
+.client-four,
+.client-five,
+.client-six {
+  fill: currentColor;
+}
