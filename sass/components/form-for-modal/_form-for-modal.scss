@@ -65,10 +65,10 @@
     color: rgba(117, 117, 117, 0.5);
   }
 
-  .modal-form-wrapper input:hover,
-  .modal-form-wrapper input:focus,
-  .modal-form-wrapper textarea:hover,
-  .modal-form-wrapper textarea:focus {
+  & input:hover,
+  & input:focus,
+  & textarea:hover,
+  & textarea:focus {
     border: 1px solid $--blue;
     outline: none;
   }
@@ -172,4 +172,12 @@
 
 .modal-form-wrapper input:focus + svg {
   fill: $--blue;
+}
+
+.modal-form-wrapper:hover input:hover,
+.modal-form-wrapper:hover input:focus,
+.modal-form-wrapper:hover textarea:hover,
+.modal-form-wrapper:hover textarea:focus {
+  border: 1px solid $--blue;
+  outline: none;
 }

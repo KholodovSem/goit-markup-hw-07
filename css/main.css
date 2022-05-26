@@ -278,10 +278,10 @@ a {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form-wrapper .modal-form-wrapper input:hover,
-.modal-form-wrapper .modal-form-wrapper input:focus,
-.modal-form-wrapper .modal-form-wrapper textarea:hover,
-.modal-form-wrapper .modal-form-wrapper textarea:focus {
+.modal-form-wrapper input:hover,
+.modal-form-wrapper input:focus,
+.modal-form-wrapper textarea:hover,
+.modal-form-wrapper textarea:focus {
   border: 1px solid #2196f3;
   outline: none;
 }
@@ -375,6 +375,14 @@ a {
 
 .modal-form-wrapper input:focus + svg {
   fill: #2196f3;
+}
+
+.modal-form-wrapper:hover input:hover,
+.modal-form-wrapper:hover input:focus,
+.modal-form-wrapper:hover textarea:hover,
+.modal-form-wrapper:hover textarea:focus {
+  border: 1px solid #2196f3;
+  outline: none;
 }
 
 .button {
